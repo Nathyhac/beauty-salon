@@ -1,14 +1,15 @@
 /* Navbar Styles */
 .navbar {
+    /* margin-bottom: 70px; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 5%;
     background: #fff;
   }
   
   .logo {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600;
     letter-spacing: 2px;
     text-decoration: none;

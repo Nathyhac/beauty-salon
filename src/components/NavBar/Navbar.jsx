@@ -8,13 +8,13 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <Link to="/" className="logo">
-        P L A N I T Y
+        W A Q T I
       </Link>
 
       <nav className="main-nav">
         <ul>
           <li>
-            <Link to="/hairdresser" className={location.pathname === "/hairdresser" ? "active" : ""}>
+            <Link to="/HairDresser" className={location.pathname === "/HairDresser" ? "active" : ""}>
               Hairdresser
             </Link>
           </li>
@@ -29,7 +29,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/beauty-institute" className={location.pathname === "/beauty-institute" ? "active" : ""}>
+            <Link to="/beautyInstitute" className={location.pathname === "/beautyInstitute" ? "active" : ""}>
               Beauty Institute
             </Link>
           </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
       </nav>
 
       <div className="header-btns">
-        <Link to="/add-establishment" className="btn-light">
+        <Link to="/establishment" className="btn-light">
           Add your establishment
         </Link>
         <Link to="/login" className="btn-dark">

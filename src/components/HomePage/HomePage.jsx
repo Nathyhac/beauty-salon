@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import "./HomePage.css"
 import Carousel from "../Carousal/Carousal.jsx"
+import StatsCard from "./StatsCard.jsx"
 
 const HomePage = () => {
   return (
@@ -32,7 +33,7 @@ const HomePage = () => {
 
       {/* Growth Section */}
       <section className="section">
-        <div className="section-tag">STRONG GROWTH</div>
+        {/* <div className="section-tag">STRONG GROWTH</div>
         <h2 className="section-title">
           Are you a beauty professional?
           <br />
@@ -64,8 +65,11 @@ const HomePage = () => {
             <h3>&gt; 5 billion €</h3>
             <p>Appointments sold</p>
           </div>
-        </div>
+        </div> */}
+          <StatsCard/>
       </section>
+    
+
 
       {/* Press Section */}
       <section className="section dark">
